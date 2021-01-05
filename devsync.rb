@@ -7,7 +7,7 @@ class DotnetRequirement < Requirement
 
   def message; <<~EOS
     .NET Core 3+ Runtime is required; install it via:
-    brew cask install dotnet
+    brew install --cask dotnet
     EOS
   end
 end
