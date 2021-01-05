@@ -2,7 +2,7 @@
 Homebrew formula for DevSync
 
 Install .NET Core runtime:  
-`brew cask install dotnet`
+`brew install --cask dotnet`
 
 Install DevSync:  
 `brew install oleg-st/devsync/devsync`
