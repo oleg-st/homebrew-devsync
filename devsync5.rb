@@ -6,7 +6,7 @@ class DotnetRequirement < Requirement
   satisfy(:build_env => false) { which("dotnet") }
 
   def message; <<~EOS
-    .NET Core 3+ Runtime is required; install it via:
+    .NET 5 Runtime is required; install it via:
     brew install --cask dotnet
     EOS
   end
@@ -14,10 +14,10 @@ end
 
 class Devsync < Formula
   depends_on DotnetRequirement
-  version "0.33"
+  version "0.34"
   url "https://github.com/oleg-st/DevSync/releases/download/#{version}/DevSync5.zip"
   homepage "https://github.com/oleg-st/DevSync"
-  sha256 "0745955364c33d41b4324f71b94432ebda48080a17187c882ae3cca400f31d26"
+  sha256 "ba4ab711e6fba8f5e5621599c51ed2a0d256537cd2f5beae07f6cb631088e571"
 
   def install
     # write run script
