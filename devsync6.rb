@@ -12,7 +12,7 @@ class DotnetRequirement < Requirement
   end
 end
 
-class Devsync < Formula
+class Devsync6 < Formula
   depends_on DotnetRequirement
   version "0.34"
   url "https://github.com/oleg-st/DevSync/releases/download/#{version}/DevSync6.zip"
