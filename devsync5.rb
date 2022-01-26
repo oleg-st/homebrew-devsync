@@ -14,10 +14,10 @@ end
 
 class Devsync5 < Formula
   depends_on DotnetRequirement
-  version "0.34"
+  version "0.35"
   url "https://github.com/oleg-st/DevSync/releases/download/#{version}/DevSync5.zip"
   homepage "https://github.com/oleg-st/DevSync"
-  sha256 "ba4ab711e6fba8f5e5621599c51ed2a0d256537cd2f5beae07f6cb631088e571"
+  sha256 "44b04abf8d5b0f2488a0798f0af76fd776d8e00ce9cd1529e18c0a693896a7a5"
 
   def install
     # write run script
